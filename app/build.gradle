@@ -72,7 +72,6 @@ dependencies {
     implementation deps.support.exif_interface
 
     implementation deps.gson
-    implementation deps.glide
     implementation deps.navigation.fragment_ktx
 
     androidTestImplementation deps.navigation.testing_ktx
@@ -82,8 +81,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     kapt deps.lifecycle.compiler
-    debugImplementation 'com.amitshekhar.android:debug-db:1.0.3'
-    implementation 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
