@@ -17,7 +17,6 @@ versions.play="11.4.2"
 versions.gson="2.7"
 versions.constraint_layout="1.1.0-beta1"
 versions.multidex="1.0.1"
-versions.glide="3.7.0"
 versions.navigation = "1.0.0-alpha03"
 def deps = [:]
 
@@ -84,7 +83,6 @@ deps.navigation = navigation
 deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
 deps.http_mime="org.apache.httpcomponents:httpmime:$versions.http_mime"
 deps.gson="com.google.code.gson:gson:$versions.gson"
-deps.glide="com.github.bumptech.glide:glide:$versions.glide"
 ext.deps = deps
 
 def build_versions = [:]
