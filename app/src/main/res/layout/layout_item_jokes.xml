@@ -47,6 +47,7 @@
                       app:layout_constraintStart_toEndOf="@id/title"
                       app:layout_constraintTop_toTopOf="parent"
                       app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintBottom_toBottomOf="parent"
                       android:layout_marginLeft="@dimen/default_margin"
                       android:layout_marginStart="@dimen/default_margin"
                       style="@style/Base.TextAppearance.AppCompat.Subhead"
